@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A29144147C19B900B95F22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A29143147C19B900B95F22 /* UIKit.framework */; };
+		83A29146147C19B900B95F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A29145147C19B900B95F22 /* Foundation.framework */; };
+		83A29148147C19B900B95F22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A29147147C19B900B95F22 /* CoreGraphics.framework */; };
+		83A2914E147C19B900B95F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A2914C147C19B900B95F22 /* InfoPlist.strings */; };
+		83A29150147C19B900B95F22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2914F147C19B900B95F22 /* main.m */; };
+		83A29154147C19B900B95F22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A29153147C19B900B95F22 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83A2913F147C19B900B95F22 /* LispInObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LispInObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A29143147C19B900B95F22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83A29145147C19B900B95F22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83A29147147C19B900B95F22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83A2914B147C19B900B95F22 /* LispInObjectiveC-Info.plist */ = {isa = PBXFileReference; path = "LispInObjectiveC-Info.plist"; sourceTree = "<group>"; };
+		83A2914D147C19B900B95F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A2914F147C19B900B95F22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A29151147C19B900B95F22 /* LispInObjectiveC-Prefix.pch */ = {isa = PBXFileReference; path = "LispInObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		83A29152147C19B900B95F22 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		83A29153147C19B900B95F22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A2913C147C19B900B95F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A29144147C19B900B95F22 /* UIKit.framework in Frameworks */,
+				83A29146147C19B900B95F22 /* Foundation.framework in Frameworks */,
+				83A29148147C19B900B95F22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A29134147C19B900B95F22 = {
+			isa = PBXGroup;
+			children = (
+				83A29149147C19B900B95F22 /* LispInObjectiveC */,
+				83A29142147C19B900B95F22 /* Frameworks */,
+				83A29140147C19B900B95F22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A29140147C19B900B95F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A2913F147C19B900B95F22 /* LispInObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A29142147C19B900B95F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A29143147C19B900B95F22 /* UIKit.framework */,
+				83A29145147C19B900B95F22 /* Foundation.framework */,
+				83A29147147C19B900B95F22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A29149147C19B900B95F22 /* LispInObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				83A29152147C19B900B95F22 /* AppDelegate.h */,
+				83A29153147C19B900B95F22 /* AppDelegate.m */,
+				83A2914A147C19B900B95F22 /* Supporting Files */,
+			);
+			path = LispInObjectiveC;
+			sourceTree = "<group>";
+		};
+		83A2914A147C19B900B95F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A2914B147C19B900B95F22 /* LispInObjectiveC-Info.plist */,
+				83A2914C147C19B900B95F22 /* InfoPlist.strings */,
+				83A2914F147C19B900B95F22 /* main.m */,
+				83A29151147C19B900B95F22 /* LispInObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A2913E147C19B900B95F22 /* LispInObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A29157147C19B900B95F22 /* Build configuration list for PBXNativeTarget "LispInObjectiveC" */;
+			buildPhases = (
+				83A2913B147C19B900B95F22 /* Sources */,
+				83A2913C147C19B900B95F22 /* Frameworks */,
+				83A2913D147C19B900B95F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LispInObjectiveC;
+			productName = LispInObjectiveC;
+			productReference = 83A2913F147C19B900B95F22 /* LispInObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A29136147C19B900B95F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 83A29139147C19B900B95F22 /* Build configuration list for PBXProject "LispInObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83A29134147C19B900B95F22;
+			productRefGroup = 83A29140147C19B900B95F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A2913E147C19B900B95F22 /* LispInObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A2913D147C19B900B95F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A2914E147C19B900B95F22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A2913B147C19B900B95F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A29150147C19B900B95F22 /* main.m in Sources */,
+				83A29154147C19B900B95F22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A2914C147C19B900B95F22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A2914D147C19B900B95F22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A29155147C19B900B95F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A29156147C19B900B95F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A29158147C19B900B95F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LispInObjectiveC/LispInObjectiveC-Prefix.pch";
+				INFOPLIST_FILE = "LispInObjectiveC/LispInObjectiveC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83A29159147C19B900B95F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LispInObjectiveC/LispInObjectiveC-Prefix.pch";
+				INFOPLIST_FILE = "LispInObjectiveC/LispInObjectiveC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A29139147C19B900B95F22 /* Build configuration list for PBXProject "LispInObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A29155147C19B900B95F22 /* Debug */,
+				83A29156147C19B900B95F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A29157147C19B900B95F22 /* Build configuration list for PBXNativeTarget "LispInObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A29158147C19B900B95F22 /* Debug */,
+				83A29159147C19B900B95F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A29136147C19B900B95F22 /* Project object */;
+}
