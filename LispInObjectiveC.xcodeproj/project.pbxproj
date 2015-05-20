@@ -13,6 +13,8 @@
 		83A2914E147C19B900B95F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A2914C147C19B900B95F22 /* InfoPlist.strings */; };
 		83A29150147C19B900B95F22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2914F147C19B900B95F22 /* main.m */; };
 		83A29154147C19B900B95F22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A29153147C19B900B95F22 /* AppDelegate.m */; };
+		83A2915D147C19FA00B95F22 /* Lisp.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2915C147C19FA00B95F22 /* Lisp.m */; };
+		83A29160147E775300B95F22 /* OLisp.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2915F147E775300B95F22 /* OLisp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		83A29143147C19B900B95F22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		83A29145147C19B900B95F22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83A29147147C19B900B95F22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		83A2914B147C19B900B95F22 /* LispInObjectiveC-Info.plist */ = {isa = PBXFileReference; path = "LispInObjectiveC-Info.plist"; sourceTree = "<group>"; };
+		83A2914B147C19B900B95F22 /* LispInObjectiveC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LispInObjectiveC-Info.plist"; sourceTree = "<group>"; };
 		83A2914D147C19B900B95F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83A2914F147C19B900B95F22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83A29151147C19B900B95F22 /* LispInObjectiveC-Prefix.pch */ = {isa = PBXFileReference; path = "LispInObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
-		83A29152147C19B900B95F22 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		83A29151147C19B900B95F22 /* LispInObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LispInObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		83A29152147C19B900B95F22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83A29153147C19B900B95F22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83A2915B147C19FA00B95F22 /* Lisp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lisp.h; sourceTree = "<group>"; };
+		83A2915C147C19FA00B95F22 /* Lisp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lisp.m; sourceTree = "<group>"; };
+		83A2915E147E775300B95F22 /* OLisp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLisp.h; sourceTree = "<group>"; };
+		83A2915F147E775300B95F22 /* OLisp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLisp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		83A29149147C19B900B95F22 /* LispInObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				83A2915A147C19E200B95F22 /* LispOC */,
 				83A29152147C19B900B95F22 /* AppDelegate.h */,
 				83A29153147C19B900B95F22 /* AppDelegate.m */,
 				83A2914A147C19B900B95F22 /* Supporting Files */,
@@ -88,6 +95,17 @@
 				83A29151147C19B900B95F22 /* LispInObjectiveC-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A2915A147C19E200B95F22 /* LispOC */ = {
+			isa = PBXGroup;
+			children = (
+				83A2915B147C19FA00B95F22 /* Lisp.h */,
+				83A2915C147C19FA00B95F22 /* Lisp.m */,
+				83A2915E147E775300B95F22 /* OLisp.h */,
+				83A2915F147E775300B95F22 /* OLisp.m */,
+			);
+			name = LispOC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +171,8 @@
 			files = (
 				83A29150147C19B900B95F22 /* main.m in Sources */,
 				83A29154147C19B900B95F22 /* AppDelegate.m in Sources */,
+				83A2915D147C19FA00B95F22 /* Lisp.m in Sources */,
+				83A29160147E775300B95F22 /* OLisp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

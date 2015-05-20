@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OLisp.h"
 
 @implementation AppDelegate
 
@@ -18,6 +19,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+
+    OLisp* lisp = [[OLisp alloc] init];
+    [lisp test];
     return YES;
 }
 
